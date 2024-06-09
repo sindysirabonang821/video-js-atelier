@@ -1,40 +1,30 @@
-// let name = "yuna"
-// if(name === "yuna")
+ /*document.write("a")
+ document.write("a")
+ document.write("a")
+ document.write("a")
+ document.write("a")
+ */
+// let i = 0;
+
+// while(i < 5)
 //     {
-//         document.write("OUI")
-//         let number = 6;
-//         if(number === 6);
-//         document.write("oui")
-//     }
-//     else
-//     {
-//         document.write("NON")
+//         document.write("a");
+//         i++;
 //     }
 
-// let number = 6;
-// if(number < 0);
-// {
-//     document.write("< 0");
-//   else  if( "number > 10");
-//    document.write("> 10");
+// let i = 10;
+// do{
+//     document.write("AAA")
+//     i++;
 // }
-// else
-// document.write(number);
+// while(i < 10);
 
-let number = 5;
-switch(number)
-{
-    case 0:
-    case 1:
-    case 2:
-     case 3:
-    case 4:
-    document.write("number < 5")
-    break
-    case 5:
-    document.write("number = 5") 
-    break   
-    default: alert("pas de valeure reconnue ....")
-    break
-}
-    
+for(let i = 0; i < 50; ++i )
+    {
+        document.write("a")
+
+        if(i == 5)
+            continue;
+        
+        document.write("b ");
+    }
